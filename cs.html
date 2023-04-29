@@ -1,9 +1,10 @@
 <!doctype html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Cinema Search</title>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="cs.css">
+	<title>Cinema Search</title>
 </head>
 
 <body>
@@ -12,17 +13,18 @@
 	<h3>Search for movies in a specfic location!!</h3>
 	<h5>Please enter a location to begin your search:</h5>
 	<form>
-		
+
 		<label for="zip"></label><br>
 		<input type="search" id="zip" name="zip" placeholder="Zip Code or City">
-		<button>Search</button>
-		
+		<button onclick="abstract_action(this)">Search</button>
+
 	</form>
 	<h2>OR</h2>
 	<h3>Let us suggest a random movie for you.</h3>
-	
+
 	<footer></footer>
-	
-	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="scripts.js"></script>
 </body>
+
 </html>
